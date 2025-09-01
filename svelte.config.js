@@ -14,7 +14,7 @@ const config = {
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs',
-			fallback: undefined,
+			fallback: 'index.html',
 			precompress: false,
 			strict: true
 		})
